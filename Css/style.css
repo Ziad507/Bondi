@@ -227,7 +227,7 @@ header .title button{
   width: 900px;
   height: 900px;
   flex-wrap: nowrap;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: baseline;
 }
 .work-1,
@@ -248,4 +248,12 @@ header .title button{
 .work-5:hover,
 .work-6:hover{
   overflow: initial;
+}
+.portfolio button{
+  transform: translateX(350px);
+  padding: 10px 50px;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 20px;
+  margin: 100px 0;
 }
