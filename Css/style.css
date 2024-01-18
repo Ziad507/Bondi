@@ -229,6 +229,7 @@ header .title button{
   flex-wrap: nowrap;
   flex-direction: row-reverse;
   align-items: baseline;
+  margin-left: 100px;
 }
 .work-1,
 .work-2,
@@ -250,7 +251,7 @@ header .title button{
   overflow: initial;
 }
 .portfolio button{
-  transform: translateX(350px);
+  transform: translateX(500px);
   padding: 10px 50px;
   font-weight: 500;
   font-size: 13px;
