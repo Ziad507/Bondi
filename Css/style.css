@@ -150,8 +150,8 @@ header .title button{
 .service-1,
 .service-2,
 .service-3{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  /* height: 200px; */
   text-align: center;
   margin: 0;
 }
@@ -173,4 +173,6 @@ header .title button{
 .service-2 p,
 .service-3 p{
   color: #a8b9c0;
+  font-size: 14px;
+  font-weight: 300;
 }
