@@ -128,7 +128,7 @@ header .title button{
 .services .title {
   text-align: center;
   border-bottom: 1px solid #00c7c0;
-  margin: 0 400px;
+  margin: 0 355px;
 }
 .services .title h1{
   margin-top: 100px;
@@ -182,7 +182,7 @@ header .title button{
 .portfolio .title{
   text-align: center;
   border-bottom: 1px solid #00c7c0;
-  margin: 0 400px;
+  margin: 0 355px;
 }
 .portfolio .title h1{
   padding-top: 100px;
@@ -213,7 +213,7 @@ header .title button{
   color: #a8b9c0;
   text-decoration: none;
   padding-right: 40px;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 .portfolio .nav ul li a.active,
 .portfolio .nav ul li a:hover{
@@ -221,4 +221,31 @@ header .title button{
   color: #ffc501;
   border-radius: 15px;
   padding: 10px 20px;
+}
+.works{
+  display: flex;
+  width: 900px;
+  height: 900px;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: baseline;
+}
+.work-1,
+.work-2,
+.work-3,
+.work-4,
+.work-5,
+.work-6{
+  width: 1000px;
+  height: 900px;
+  overflow: hidden;
+
+}
+.work-1:hover,
+.work-2:hover,
+.work-3:hover,
+.work-4:hover,
+.work-5:hover,
+.work-6:hover{
+  overflow: initial;
 }
