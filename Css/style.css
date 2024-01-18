@@ -128,7 +128,7 @@ header .title button{
 .services .title {
   text-align: center;
   border-bottom: 1px solid #00c7c0;
-  margin: 0 300px;
+  margin: 0 400px;
 }
 .services .title h1{
   margin-top: 100px;
@@ -151,7 +151,6 @@ header .title button{
 .service-2,
 .service-3{
   width: 300px;
-  /* height: 200px; */
   text-align: center;
   margin: 0;
 }
@@ -175,4 +174,51 @@ header .title button{
   color: #a8b9c0;
   font-size: 14px;
   font-weight: 300;
+}
+.portfolio{
+  background-color: #eff7fa;
+  transform: translateY(30px)
+}
+.portfolio .title{
+  text-align: center;
+  border-bottom: 1px solid #00c7c0;
+  margin: 0 400px;
+}
+.portfolio .title h1{
+  padding-top: 100px;
+  color: #1a2940;
+  font-weight: 600;
+  font-size: 25pt;
+  margin-bottom: 5px;
+}
+.portfolio .title p{
+  color: #a8b9c0;
+  font-weight: 300;
+  font-size: 15px;
+}
+.portfolio .nav{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.portfolio .nav ul{
+  display: flex;
+}
+.portfolio .nav ul li{
+  list-style: none;
+}
+.portfolio .nav ul li a{
+  color: #a8b9c0;
+  text-decoration: none;
+  padding-right: 40px;
+  margin-right: 20px;
+}
+.portfolio .nav ul li a.active,
+.portfolio .nav ul li a:hover{
+  background-color: #ff3150;
+  color: #ffc501;
+  border-radius: 15px;
+  padding: 10px 20px;
 }
