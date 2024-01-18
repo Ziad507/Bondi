@@ -17,6 +17,7 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 @media (min-width: 768px) {
     .container {
@@ -43,6 +44,7 @@ header .container{
     align-items: center;
     justify-content: space-between;
     position: relative;
+    
 }
 .logo img{
   height: 40px;
@@ -85,7 +87,7 @@ header nav ul li a:hover{
 button{
   background-color: #ff3150;
   border: none;
-  color: #ff941b;
+  color: #ffc501;
   cursor: pointer;
   border-radius: 1vw;
   box-sizing: border-box;
@@ -99,29 +101,42 @@ header .form button{
   padding: 12px 40px;
   border-radius: 15px;
 }
-.title{
-  color: #f0f8fb;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  padding-left: 500px;
+header .title{
+  text-align: center;
 }
-.title h1{
+header .title h1{
   font-weight: 300;
   font-size: 50px;
   margin-bottom: 0;
+  color: #f0f8fb;
 }
-.title p{
+header .title p{
   font-size: 15px;
   font-weight: 100;
-  padding-left: 60px;
-  
+  color: #a8b9c0;
 }
-.title button{
+header .title button{
   margin-bottom: 50px;
-  transform: translateX(120px);
   padding: 10px 50px;
   font-weight: 500;
   font-size: 13px;
   border-radius: 20px;
   margin-top: 20px;
+}
+.services .title {
+  text-align: center;
+}
+.services .title h1{
+  margin-top: 100px;
+  color: #1a2940;
+  font-weight: 600;
+  font-size: 25pt;
+  margin-bottom: 5px;
+}
+.services .title p{
+  color: #a8b9c0;
+  font-weight: 300;
+  font-size: 15px;
+  border-bottom: 1px solid #00c7c0;
+  
 }
