@@ -125,22 +125,27 @@ header .title button{
   margin-top: 20px;
   
 }
-.services .title {
+.title{
   text-align: center;
-  border-bottom: 1px solid #00c7c0;
-  margin: 0 355px;
+  padding-top: 100px;
 }
-.services .title h1{
-  margin-top: 100px;
-  color: #1a2940;
+.title h1{
+  color: #ffc501;
   font-weight: 600;
   font-size: 25pt;
   margin-bottom: 5px;
 }
-.services .title p{
+.title p{
   color: #a8b9c0;
   font-weight: 300;
   font-size: 15px;
+}
+.services .title {
+  border-bottom: 1px solid #00c7c0;
+  margin: 0 355px;
+}
+.services .title h1{
+  color: #19283f;
 }
 .services-ctrl{
   display: flex;
@@ -180,21 +185,11 @@ header .title button{
   transform: translateY(30px)
 }
 .portfolio .title{
-  text-align: center;
   border-bottom: 1px solid #00c7c0;
   margin: 0 355px;
 }
 .portfolio .title h1{
-  padding-top: 100px;
-  color: #1a2940;
-  font-weight: 600;
-  font-size: 25pt;
-  margin-bottom: 5px;
-}
-.portfolio .title p{
-  color: #a8b9c0;
-  font-weight: 300;
-  font-size: 15px;
+  color: #19283f;
 }
 .portfolio .nav{
   flex: 1;
@@ -224,31 +219,15 @@ header .title button{
 }
 .works{
   display: flex;
-  width: 900px;
-  height: 900px;
-  flex-wrap: nowrap;
-  flex-direction: row-reverse;
-  align-items: baseline;
-  margin-left: 100px;
+  text-align: center;
+  padding-left: 100px;
 }
-.work-1,
-.work-2,
-.work-3,
-.work-4,
-.work-5,
-.work-6{
-  width: 1000px;
-  height: 900px;
-  overflow: hidden;
-
-}
-.work-1:hover,
-.work-2:hover,
-.work-3:hover,
-.work-4:hover,
-.work-5:hover,
-.work-6:hover{
-  overflow: initial;
+.work-1 img,
+.work-2 img,
+.work-3 img{
+  width: 300px;
+  height: 400px;
+  margin-right: 20px;
 }
 .portfolio button{
   transform: translateX(500px);
@@ -257,4 +236,38 @@ header .title button{
   font-size: 13px;
   border-radius: 20px;
   margin: 100px 0;
+}
+.teams{
+  padding: 100px 0;
+  display: flex;
+  text-align: center;
+}
+.meet-team .title p{
+  font-size: 13px;
+  font-weight: 200;
+}
+.teams img{
+  width: 200px;
+  height: auto;
+}
+.teams h1{
+  background-color: #00c7c0;
+  margin: 10px 78px;
+  color: #eff7fa;
+  font-size: 13px;
+  padding: 10px 5px;
+}
+.teams p{
+  font-size: 13px;
+  font-weight: 300;
+  color: #a9b4b8;
+  background-color: #eff7fa;
+  width: 200px;
+  margin-left: 20px;
+}
+.team-1,
+.team-2,
+.team-3{
+  margin-right: 40px;
+  margin-left: 50px;
 }
