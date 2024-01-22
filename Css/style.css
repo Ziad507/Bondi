@@ -1,69 +1,62 @@
-*{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-html {
-    scroll-behavior: smooth;
-}
-body {
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.container{
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    
+html {
+  scroll-behavior: smooth;
 }
-@media (min-width: 768px) {
-    .container {
-      width: 750px;
-    }
-  }
-  /* Medium */
-  @media (min-width: 992px) {
-    .container {
-      width: 970px;
-    }
-  }
-  /* Large */
-  @media (min-width: 1200px) {
-    .container {
-      width: 1170px;
-    }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
 }
-header{
-    background-color: #19283f;
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  
 }
-header .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    
+
+header {
+  background-color: #19283f;
+  margin: auto;
 }
-.logo img{
+
+header .container {
+  display: flex;
+  align-items: center; 
+  margin: auto;
+}
+
+.logo img {
   height: 40px;
 }
-header nav{
+
+header nav {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding-right: 50px;
 }
-header nav ul{
+
+header nav ul {
   display: flex;
-  
 }
-header nav ul li{
+
+header nav ul li {
   list-style: none;
 }
-header nav ul li a{
+
+header nav ul li a {
   display: block;
   color: #f0f8fb;
   text-decoration: none;
@@ -71,20 +64,20 @@ header nav ul li a{
   transition: 0.3s;
   padding: 40px 30px;
   font-weight: 100;
+}
 
-}
 header nav ul li a.active,
-header nav ul li a:hover{
-  color:#00c7c0 ;
+header nav ul li a:hover {
+  color: #00c7c0;
 }
-.form{
-  width: 40px;
-  height: 30px;
+
+.form {
   position: relative;
   margin-left: 30px;
-  border-left: 1px solid #00c7c0 ;
+  border-left: 1px solid #00c7c0;
 }
-button{
+
+button {
   background-color: #ff3150;
   border: none;
   color: #ffc501;
@@ -93,171 +86,195 @@ button{
   box-sizing: border-box;
   font-size: 16px;
   font-weight: 600;
-  
 }
 
-header .form button{
+header .form button {
   margin-left: 16px;
   padding: 12px 40px;
   border-radius: 15px;
-  transform: translateY(-10px);
 }
-header .title{
-  text-align: center;
-}
-header .title h1{
+
+header .title h1 {
   font-weight: 300;
   font-size: 50px;
   margin-bottom: 0;
   color: #f0f8fb;
 }
-header .title p{
+
+header .title p {
   font-size: 15px;
   font-weight: 100;
   color: #a8b9c0;
 }
-header .title button{
+
+header .title button {
   margin-bottom: 50px;
   padding: 10px 50px;
   font-weight: 500;
   font-size: 13px;
   border-radius: 20px;
   margin-top: 20px;
-  
 }
-.title{
+
+.title {
   text-align: center;
   padding-top: 100px;
 }
-.title h1{
+
+.title h1 {
   color: #ffc501;
   font-weight: 600;
   font-size: 25pt;
   margin-bottom: 5px;
 }
-.title p{
+
+.title p {
   color: #a8b9c0;
   font-weight: 300;
   font-size: 15px;
 }
+
 .services .title {
   border-bottom: 1px solid #00c7c0;
   margin: 0 355px;
 }
-.services .title h1{
+
+.services .title h1 {
   color: #19283f;
+  display: flex;
+  justify-content: center;
 }
-.services-ctrl{
+
+.services-ctrl {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .service-1,
 .service-2,
-.service-3{
+.service-3 {
   width: 300px;
   text-align: center;
   margin: 0;
 }
+
 .service-1 h1,
 .service-2 h1,
-.service-3 h1{ 
+.service-3 h1 {
   font-weight: 900;
   font-size: 200px;
   margin: 0;
   color: #eff7fa;
 }
+
 .service-1 h2,
 .service-2 h2,
-.service-3 h2{
+.service-3 h2 {
   color: #ffc501;
   margin: 0;
 }
+
 .service-1 p,
 .service-2 p,
-.service-3 p{
+.service-3 p {
   color: #a8b9c0;
   font-size: 14px;
   font-weight: 300;
 }
-.portfolio{
+
+.portfolio {
   background-color: #eff7fa;
-  transform: translateY(30px)
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.portfolio .title{
+
+.portfolio .title {
   border-bottom: 1px solid #00c7c0;
   margin: 0 355px;
 }
-.portfolio .title h1{
+
+.portfolio .title h1 {
   color: #19283f;
 }
-.portfolio .nav{
+
+.portfolio .nav {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 50px;
 }
-.portfolio .nav ul{
+
+.portfolio .nav ul {
   display: flex;
 }
-.portfolio .nav ul li{
+
+.portfolio .nav ul li {
   list-style: none;
 }
-.portfolio .nav ul li a{
+
+.portfolio .nav ul li a {
   color: #a8b9c0;
   text-decoration: none;
   padding-right: 40px;
   margin-right: 40px;
 }
+
 .portfolio .nav ul li a.active,
-.portfolio .nav ul li a:hover{
+.portfolio .nav ul li a:hover {
   background-color: #ff3150;
   color: #ffc501;
   border-radius: 15px;
   padding: 10px 20px;
 }
-.works{
-  display: flex;
-  text-align: center;
-  padding-left: 100px;
-}
-.work-1 img,
-.work-2 img,
-.work-3 img{
-  width: 300px;
-  height: 400px;
-  margin-right: 20px;
-}
-.portfolio button{
-  transform: translateX(500px);
+.portfolio button {
+  transform: translateX(400px);
   padding: 10px 50px;
   font-weight: 500;
   font-size: 13px;
   border-radius: 20px;
-  margin: 100px 0;
+  margin: 50px 0;
 }
-.teams{
+.works {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.works img {
+  width: 50%;
+  height: 400px;
+  margin-right: 20px;
+}
+
+.teams {
   padding: 100px 0;
   display: flex;
   text-align: center;
+  justify-content: center;
 }
-.meet-team .title p{
+
+.meet-team .title p {
   font-size: 13px;
   font-weight: 200;
 }
-.teams img{
+
+.teams img {
   width: 200px;
   height: auto;
 }
-.teams h1{
+
+.teams h1 {
   background-color: #00c7c0;
   margin: 10px 78px;
   color: #eff7fa;
   font-size: 13px;
   padding: 10px 5px;
 }
-.teams p{
+
+.teams p {
   font-size: 13px;
   font-weight: 300;
   color: #a9b4b8;
@@ -265,10 +282,151 @@ header .title button{
   width: 200px;
   margin-left: 20px;
   padding: 4px 10px;
+  max-width: 400px;
 }
+
 .team-1,
 .team-2,
-.team-3{
+.team-3 {
   margin-right: 40px;
   margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  
+  .services-ctrl{
+    flex-direction: column;
+  }
+  .container{
+  max-width: 700px;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  }
+
+  header .title h1 {
+    font-size: 3rem;
+  }
+  
+  header .title p {
+    font-size: 1rem;
+  }
+  
+  header nav {
+    padding-right: 20px;
+  }
+  
+  header nav ul li a {
+    padding: 20px 10px;
+  }
+  .portfolio .title,
+  .services .title,
+  .meet-team .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolio .title h1 {
+    font-size: 2rem;
+    
+  }
+  
+  .portfolio .nav ul li a {
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+  
+  .works {
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  
+  .work-1 img,
+  .work-2 img,
+  .work-3 img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+  
+  .portfolio button {
+    transform: translateX(220px);
+    margin: 50px 0;
+    width: 200px;
+  }
+  
+  .teams {
+    flex-wrap: wrap;
+  }
+  
+  .teams h1 {
+    margin: 10px 39px;
+  }
+  
+  .teams p {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  header .title h1 {
+    font-size: 2.5rem;
+  }
+  
+  header .title p {
+    font-size: 0.9rem;
+  }
+  
+  header nav ul li a {
+    padding: 15px 5px;
+  }
+  
+  .portfolio .title h1 {
+    font-size: 1.5rem;
+  }
+  
+  .portfolio .nav ul li a {
+    padding-right: 15px;
+    margin-right: 15px;
+  }
+  
+  .teams h1 {
+    margin: 10px 29px;
+  }
+}
+
+@media (max-width: 575px) {
+  header .title h1 {
+    font-size: 2rem;
+  }
+  
+  header .title p {
+    font-size: 0.8rem;
+  }
+  
+  header nav {
+    padding-right: 10px;
+  }
+  
+  header nav ul li a {
+    padding: 10px 5px;
+  }
+  
+  .portfolio .title h1 {
+    font-size: 1.2rem;
+  }
+  
+  .portfolio .nav ul li a {
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+  
+  .teams h1 {
+    margin: 10px 24px;
+  }
 }
